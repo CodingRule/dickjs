@@ -1,0 +1,17 @@
+{
+  "name": "dickjs",
+  "version": "0.0.2",
+  "description": "A very powerful npm package that let's you do real cool things.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "dick"
+  ],
+  "author": "Codingrule",
+  "license": "MIT",
+  "dependencies": {
+    "asciify-image": "^0.1.10"
+  }
+}
