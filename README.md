@@ -14,12 +14,15 @@ npm install dickjs
 
 # Usage
 
+# Usage
+
 ```js
 const generateThingy = require('dickjs');
 
-generateThingy()
+
+generateThingy("https://static-00.iconduck.com/assets.00/penis-emoji-2048x2004-mcysxmme.png")
     .then(ascii => console.log(ascii))
-    .catch(err => console.error('Error generating nerd face:', err));
+    .catch(err => console.error('Error generating ASCII art:', err));
 ```
 
 # Credits
@@ -29,3 +32,5 @@ This package is based on the asciify-image package.
 # License
 
 This project is licensed under the MIT License
+
+
